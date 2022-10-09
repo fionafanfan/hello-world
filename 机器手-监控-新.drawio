@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T09:34:41.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="bbS2do-I5Jg075LGzDwn" version="20.3.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-09T09:40:44.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="QdN276LQDVhnmoieQDqi" version="20.3.6" type="github" pages="2">
   <diagram id="7LghVynFp6DC260twTb8" name="机器手监控-新">
     <mxGraphModel dx="2917" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7k7wMy8wNWdYvGFk05Gw-22" value="银行" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="940" y="672" width="220" height="138" as="geometry" />
+          <mxGeometry x="930" y="667" width="220" height="138" as="geometry" />
         </mxCell>
         <mxCell id="7k7wMy8wNWdYvGFk05Gw-23" value="+ bankCode: string（银行编号） &#xa;+account: int（银行账号）&#xa;+accountId: int （交易账户id）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="7k7wMy8wNWdYvGFk05Gw-22" vertex="1">
           <mxGeometry y="30" width="220" height="108" as="geometry" />
@@ -33,6 +33,18 @@
         </mxCell>
         <mxCell id="7k7wMy8wNWdYvGFk05Gw-39" value="&#xa;+maxTime:int（最大耗时，单位：秒，机器手计算出来值，运营系统那边使用的的是自己算的）&#xa;+minTime:int（最小耗时，单位：秒，机器手计算出来值，运营系统那边使用的的是自己算的）&#xa;+orderTime:int（回单时间，时间戳，单位：毫秒，回单那一刻的时间点，&#xa;tapd文档上有写这个字段，但是库里面没有这个字段）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" parent="7k7wMy8wNWdYvGFk05Gw-38" vertex="1">
           <mxGeometry y="30" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9MnUn5migeiSi8WMFz-1" value="银行" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="340" width="220" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9MnUn5migeiSi8WMFz-2" value="+ bankCode: string（银行编号） &#xa;+accountId: int （交易账户id）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" vertex="1" parent="SI9MnUn5migeiSi8WMFz-1">
+          <mxGeometry y="30" width="220" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9MnUn5migeiSi8WMFz-6" value="事件" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="339" width="310" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="SI9MnUn5migeiSi8WMFz-7" value="+  eventLevel:int(事件等级) &#xa;+ eventType:int(事件类型)&#xa;+message:string(事件详情信息) &#xa;+timestamp: string(事件发生时间戳 单位：毫秒)&#xa;&#xa;+ipAddress:string(事件发生服务器IP地址)&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;rounded=1;" vertex="1" parent="SI9MnUn5migeiSi8WMFz-6">
+          <mxGeometry y="30" width="310" height="101" as="geometry" />
         </mxCell>
         <object label=" 生命线调整" 生命线="生命线v0.1" id="f6DiLeIDeS20JckYswjK-1">
           <mxCell parent="0" />
