@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T09:49:33.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="MbgxteXJcxSmfgs6FDvG" version="20.3.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-13T03:33:09.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="e_DcMeQKH-tvvD9vZxXp" version="20.4.0" type="github" pages="2">
   <diagram id="7LghVynFp6DC260twTb8" name="机器手监控-新">
-    <mxGraphModel dx="3700" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="2632" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,7 +149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pHjsrjgQsub1CLGvduK-" name="机器手监控-旧">
-    <mxGraphModel dx="3750" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,13 +205,6 @@
         <mxCell id="KBm1bcrIH9nz3zcgjOdp-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" parent="KBm1bcrIH9nz3zcgjOdp-11" vertex="1">
           <mxGeometry x="105" y="510" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KBm1bcrIH9nz3zcgjOdp-15" value="推送流水对账数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.027;entryY=0.76;strokeColor=#182E3E;fontColor=#1A1A1A;labelBackgroundColor=#EEEEEE;exitX=1.027;exitY=0.747;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" parent="KBm1bcrIH9nz3zcgjOdp-3" source="KBm1bcrIH9nz3zcgjOdp-9" target="KBm1bcrIH9nz3zcgjOdp-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="358" y="330" as="sourcePoint" />
-            <Array as="points" />
-            <mxPoint x="1003" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KBm1bcrIH9nz3zcgjOdp-16" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#909090;fontSize=18;fontColor=#1A1A1A;fillColor=#F5AB50;fontStyle=1;labelBackgroundColor=none;size=90;dashed=1;strokeWidth=3;rounded=1;" parent="KBm1bcrIH9nz3zcgjOdp-3" vertex="1">
           <mxGeometry x="1268" width="220" height="890" as="geometry" />
         </mxCell>
@@ -264,10 +257,111 @@
             <mxPoint x="-155" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-1" value="" style="group;rounded=1;" vertex="1" connectable="0" parent="KBm1bcrIH9nz3zcgjOdp-3">
+          <mxGeometry width="1488" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-2" value="operation系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#909090;fontSize=18;fontColor=#1A1A1A;fillColor=#F5AB50;fontStyle=1;labelBackgroundColor=none;size=90;dashed=1;strokeWidth=3;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry width="220" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-2">
+          <mxGeometry x="105" y="520" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-2">
+          <mxGeometry x="105" y="680" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-2">
+          <mxGeometry x="105" y="390" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-6" value="机器手" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#909090;fontSize=18;fontColor=#1A1A1A;fillColor=#F5AB50;fontStyle=1;labelBackgroundColor=none;size=90;dashed=1;strokeWidth=3;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry x="423" width="220" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-6">
+          <mxGeometry x="105" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-6">
+          <mxGeometry x="105" y="140" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-9" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#909090;fontSize=18;fontColor=#1A1A1A;fillColor=#F5AB50;fontStyle=1;labelBackgroundColor=none;size=90;dashed=1;strokeWidth=3;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry x="845" width="220" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-9">
+          <mxGeometry x="105" y="690" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-9">
+          <mxGeometry x="105" y="510" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-14" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#909090;fontSize=18;fontColor=#1A1A1A;fillColor=#F5AB50;fontStyle=1;labelBackgroundColor=none;size=90;dashed=1;strokeWidth=3;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry x="1268" width="220" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-14">
+          <mxGeometry x="105" y="380" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-14">
+          <mxGeometry x="106" y="140" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-17" value="推送在线负载、负载等机器手事件" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.045;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.039;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="538.45" y="156.7500000000001" as="sourcePoint" />
+            <mxPoint x="1372.6100000000001" y="156.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-18" value="查看负载数据" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#182E3E;fontColor=#1A1A1A;exitX=0.956;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#EEEEEE;entryX=-0.022;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-5" target="2TuUhFtBE7Oa3AV1nFuk-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="43" y="400" as="sourcePoint" />
+            <mxPoint x="678" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-19" value="返回负载数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#182E3E;fontColor=#1A1A1A;entryX=1.053;entryY=0.832;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#EEEEEE;exitX=-0.089;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-15" target="2TuUhFtBE7Oa3AV1nFuk-5">
+          <mxGeometry x="0.0077" y="-5" relative="1" as="geometry">
+            <mxPoint x="-4" y="476" as="targetPoint" />
+            <mxPoint x="676" y="460" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-20" value="返回流水对账数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;strokeColor=#182E3E;fontColor=#1A1A1A;labelBackgroundColor=#EEEEEE;entryX=0.998;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-11" target="2TuUhFtBE7Oa3AV1nFuk-4">
+          <mxGeometry x="-0.0151" y="-6" relative="1" as="geometry">
+            <mxPoint x="-790" y="996" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-21" value="查流水对账数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#182E3E;fontColor=#1A1A1A;exitX=1;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#EEEEEE;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-4" target="2TuUhFtBE7Oa3AV1nFuk-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-830" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-22" value="返回订单事件数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#182E3E;fontColor=#1A1A1A;entryX=1.053;entryY=0.832;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#EEEEEE;exitX=-0.089;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-12" target="2TuUhFtBE7Oa3AV1nFuk-3">
+          <mxGeometry x="0.0077" y="-5" relative="1" as="geometry">
+            <mxPoint x="-837" y="836" as="targetPoint" />
+            <mxPoint x="-157" y="820" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-23" value="查订单事件数据" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#182E3E;fontColor=#1A1A1A;exitX=0.956;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#EEEEEE;entryX=-0.022;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1" source="2TuUhFtBE7Oa3AV1nFuk-3" target="2TuUhFtBE7Oa3AV1nFuk-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="760" as="sourcePoint" />
+            <mxPoint x="-155" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#909090;fontColor=#1A1A1A;fillColor=#F5AB50;rounded=1;" vertex="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry x="950" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2TuUhFtBE7Oa3AV1nFuk-72" value="&lt;span style=&quot;background-color: rgb(238, 238, 238);&quot;&gt;推送银行原始API信息:机器手网关通信消息表（目前只有：盈透和富途）&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="2TuUhFtBE7Oa3AV1nFuk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="538" y="260" as="sourcePoint" />
+            <mxPoint x="948" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBm1bcrIH9nz3zcgjOdp-15" value="推送流水对账数据：机器手流水对账表" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#182E3E;fontColor=#1A1A1A;labelBackgroundColor=#EEEEEE;rounded=1;" parent="2TuUhFtBE7Oa3AV1nFuk-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538" y="320" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="948" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <object label="内容" 生命线="生命线v0.1" id="KBm1bcrIH9nz3zcgjOdp-26">
           <mxCell parent="0" />
         </object>
-        <mxCell id="KBm1bcrIH9nz3zcgjOdp-27" value="推送订单事件数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#182E3E;fontColor=#1A1A1A;labelBackgroundColor=#EEEEEE;rounded=1;" parent="KBm1bcrIH9nz3zcgjOdp-26" target="KBm1bcrIH9nz3zcgjOdp-12" edge="1">
+        <mxCell id="KBm1bcrIH9nz3zcgjOdp-27" value="推送订单事件数据:机器手订单监控表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#182E3E;fontColor=#1A1A1A;labelBackgroundColor=#EEEEEE;rounded=1;" parent="KBm1bcrIH9nz3zcgjOdp-26" target="KBm1bcrIH9nz3zcgjOdp-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-280" y="520" as="sourcePoint" />
             <Array as="points" />
